@@ -19,7 +19,7 @@ StremCompat brings your **Stremio or Nuvio** account and addons to Samsung TVs w
 
 | | **StremCompat** | **StremCompat Native** |
 |---|---|---|
-| Status | The more tested one | Newer, **faster** |
+| Status | **Recommended** | **Beta**, not stable yet: faster, but expect rough edges |
 | How it is made | The interface as a web page | The native app (C, SDL2, OpenGL ES) compiled for the TV's browser engine (WebAssembly, with a JavaScript fallback for Tizen 4) |
 | App ID | `StrmCompat.App` | `StrmCmpNtv.App` |
 
@@ -43,16 +43,28 @@ The same app as on LG ([full list](https://github.com/StremCompat/webos#features
 
 ## Screenshots
 
-The interface is the same as on LG ([more screenshots](https://github.com/StremCompat/webos#screenshots)).
+Captured from the real interface at 1920x1080, with a demo account, Stremio's official addons and a public channel list. The interface is the same on LG, Samsung and Android TV.
 
 <table>
   <tr>
-    <td><img src="docs/assets/screens/home.jpg" alt="Home" width="100%"></td>
-    <td><img src="docs/assets/screens/channels.jpg" alt="Live channels" width="100%"></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/home.jpg" alt="Home" width="100%"><br><b>Home</b><br><sub>Your catalogs as rows, with the focused title large at the top.</sub></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/profiles.jpg" alt="Who is watching" width="100%"><br><b>Who is watching</b><br><sub>Nuvio profiles, with PIN-protected ones marked.</sub></td>
   </tr>
   <tr>
-    <td><img src="docs/assets/screens/store.jpg" alt="Addon store" width="100%"></td>
-    <td><img src="docs/assets/screens/series.jpg" alt="Series page" width="100%"></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/series.jpg" alt="Series page" width="100%"><br><b>Series page</b><br><sub>Details, cast, seasons and episodes with their air dates.</sub></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/sources.jpg" alt="Sources" width="100%"><br><b>Sources</b><br><sub>Every source your addons find, with quality and size; or Best source in one press.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img src="docs/assets/screens/discover.jpg" alt="Discover" width="100%"><br><b>Discover</b><br><sub>Browse any catalog by type, order and genre.</sub></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/channels.jpg" alt="Live channels" width="100%"><br><b>Live channels</b><br><sub>Categories on the left, channels and what is on now on the right.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img src="docs/assets/screens/add-list.jpg" alt="Adding a list" width="100%"><br><b>Adding a list</b><br><sub>Type the address with the built-in keyboard, scan the QR to paste it from your phone, or pick a suggested list.</sub></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/store.jpg" alt="Addon store" width="100%"><br><b>Addon store</b><br><sub>Community addons by popularity, with picture and description. The ones you have are hidden.</sub></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><img src="docs/assets/screens/organize.jpg" alt="Organize catalogs" width="100%"><br><b>Organize catalogs</b><br><sub>Reorder or hide the rows of Home.</sub></td>
+    <td width="50%" valign="top"><img src="docs/assets/screens/settings.jpg" alt="Settings" width="100%"><br><b>Settings</b><br><sub>Playback, subtitles, audio, interface, channels and account.</sub></td>
   </tr>
 </table>
 
@@ -81,6 +93,15 @@ The interface is the same as on LG ([more screenshots](https://github.com/StremC
 - **"The app service did not start":** close the app, unplug the TV for 30 seconds and open it again.
 - **Torrents do not play:** set a streaming server address in Settings, or use debrid and direct sources.
 - **A source does not play:** try a moderate H.264/AAC source first.
+
+## Other TVs and the project
+
+StremCompat lives in the [StremCompat organization](https://github.com/StremCompat):
+
+- **LG** (webOS 3 and newer): [StremCompat/webos](https://github.com/StremCompat/webos)
+- **Samsung** (Tizen 4 and newer): [StremCompat/samsung](https://github.com/StremCompat/samsung) (this page)
+- **Android TV / Google TV** (7.0 and newer): [StremCompat/android-tv](https://github.com/StremCompat/android-tv)
+- Source code: [StremCompat/stremcompat](https://github.com/StremCompat/stremcompat) (web version and local server) and [StremCompat/native](https://github.com/StremCompat/native) (native version).
 
 ## Feedback and support
 
