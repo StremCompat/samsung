@@ -6,10 +6,14 @@
 
 <p align="center">
   <a href="https://github.com/StremCompat/samsung/releases"><img alt="Latest release" src="https://img.shields.io/github/v/release/StremCompat/samsung?display_name=tag&color=0F766E"></a>
+  <a href="https://github.com/StremCompat/samsung/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/StremCompat/samsung/total?color=0F766E"></a>
   <img alt="Tizen 4 and newer" src="https://img.shields.io/badge/Tizen-4%20and%20newer-0F766E">
   <img alt="Test version" src="https://img.shields.io/badge/status-test%20version-ea345e">
+  <a href="https://github.com/StremCompat/samsung/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/StremCompat/samsung?style=flat"></a>
   <a href="https://buymeacoffee.com/Alexesmm"><img alt="Buy me a coffee" src="https://img.shields.io/badge/support-Buy%20me%20a%20coffee-ffdd00?logo=buymeacoffee&logoColor=black"></a>
 </p>
+
+<p align="center"><b>English</b> · <a href="README.pt.md">Português</a></p>
 
 StremCompat brings your **Stremio or Nuvio** account and addons to Samsung TVs with Tizen 4 and newer, with an interface made for the remote. It is an independent, unofficial project, not affiliated with or endorsed by Stremio, Nuvio or Samsung, and it plays only what your own addons provide.
 
